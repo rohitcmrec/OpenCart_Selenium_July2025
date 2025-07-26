@@ -19,7 +19,7 @@ public class AccountsPage {
         this.elementUtil = new ElementUtil(driver);
     }
 
-    private By headers = By.xpath("//div[@id='content']//h21");
+    private By headers = By.xpath("//div[@id='content']//h2");
     private By searchBox = By.xpath("//input[@name='search']");
 
     public String getAccountsPageTitle(){
