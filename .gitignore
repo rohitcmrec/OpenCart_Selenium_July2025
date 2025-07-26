@@ -3,7 +3,7 @@ screenshots/
 test-output/
 build/
 screenshot/
-reports/
+reports/TestExecutionReport.html
 
 
 ##############################
@@ -62,3 +62,5 @@ local.properties
 ## OS X
 ##############################
 .DS_Store
+
+.html
