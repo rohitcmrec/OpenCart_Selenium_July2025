@@ -15,10 +15,10 @@ public class OptionManager {
     public ChromeOptions getChromeOptions() {
         ChromeOptions co = new ChromeOptions();
         if (Boolean.parseBoolean(prop.getProperty("headless"))) {
-           // co.addArguments("--headless");
+            co.addArguments("--headless");
         }
         if (Boolean.parseBoolean(prop.getProperty("incognito"))) {
-           // co.addArguments("--incognito");
+            co.addArguments("--incognito");
         }
         return co;
     }
